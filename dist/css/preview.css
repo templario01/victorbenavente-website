@@ -39,3 +39,50 @@
   border-color: #9fbbff;
   background-color: #000;
 }
+
+.card-icons-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card-icon-element {
+  width: 132px;
+  height: 164px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: solid rgb(104, 220, 252) 4px;
+  box-shadow: 4px 4px 15px 0px rgba(104, 220, 252, 0.75);
+  -webkit-box-shadow: 4px 4px 15px 0px rgba(104, 220, 252, 0.75);
+  -moz-box-shadow: 4px 4px 15px 0px rgba(104, 220, 252, 0.75);
+  animation: float 3s ease-in-out infinite;
+}
+.h2-title-card-icon {
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 0%;
+}
+
+.img-card-icon {
+  width: 96px;
+}
+
+/* ANIMATION */
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
