@@ -40,7 +40,7 @@
   background-color: #000;
 }
 
-.card-icons-list{
+.card-icons-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -49,19 +49,30 @@
 .card-icon-element {
   width: 132px;
   height: 164px;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 10px;
-  border: solid rgb(104, 220, 252) 4px;
-  box-shadow: 4px 4px 15px 0px rgba(104, 220, 252, 0.75);
-  -webkit-box-shadow: 4px 4px 15px 0px rgba(104, 220, 252, 0.75);
-  -moz-box-shadow: 4px 4px 15px 0px rgba(104, 220, 252, 0.75);
   animation: float 3s ease-in-out infinite;
 }
+.card-icon-white {
+  background-color: #fff;
+  border: solid #8c8c8c 4px;
+  box-shadow: 4px 4px 15px 0px #8c8c8c;
+  -webkit-box-shadow: 4px 4px 15px 0px #8c8c8c;
+  -moz-box-shadow: 4px 4px 15px 0px #8c8c8c;
+}
+
+.card-icon-blue {
+  background-color: #9fbbff;
+  border: solid #000 4px;
+  box-shadow: 4px 4px 15px 0px #000;
+  -webkit-box-shadow: 4px 4px 15px 0px #000;
+  -moz-box-shadow: 4px 4px 15px 0px #000;
+}
+
 .h2-title-card-icon {
   color: #000;
   font-size: 18px;
